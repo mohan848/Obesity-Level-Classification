@@ -1,10 +1,8 @@
 streamlit==1.66.1
 numpy==1.26.4
-scipy==1.15.3
 pandas==2.2.3
 scikit-learn==1.9.1
-pyarrow==19.0.1
+scipy==1.15.3
 matplotlib
 seaborn
 joblib
-
