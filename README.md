@@ -1,12 +1,12 @@
 
 # Obesity Level Classification Using Machine Learning
 
-## 1. Problem Statement
+## a. Problem Statement
 
-Obesity is one of the major health concerns in recent years, affecting individuals across different age groups and populations. It can increase the risk of several health conditions, including cardiovascular diseases and other disorders. Obesity levels depends on demographic characteristics, eating habits, family history, and physical activity.
+Obesity is one of the major health concerns in recent years, affecting individuals across different age groups and populations. It can increase the risk of several health conditions, including cardiovascular diseases and other disorders. Obesity levels depend on demographic characteristics, eating habits, family history, and physical activity.
 Machine learning techniques such as multi-class classification models can be implemented and evaluated using appropriate metrics to classify individuals into one of the seven obesity-level categories by identifying patterns in their demographic characteristics, eating habits, family history, and physical activity.
 
-## 2. Dataset Description
+## b. Dataset Description
 
 **Dataset Name:** Estimation of Obesity Levels Based on Eating Habits and Physical Condition
 
@@ -30,11 +30,11 @@ The target variable consists of seven obesity-level categories:
 - Obesity Type II
 - Obesity Type III
 
-## 3. GitHub Repository Link
+## c. GitHub Repository Link
 
 https://github.com/mohan848/Obesity-Level-Classification
 
-## 4. Models Used and Performance Comparison
+## d. Models Used and Performance Comparison
 
 Below classification models are used:
 
@@ -72,5 +72,5 @@ The models were evaluated using Accuracy, AUC, Precision, Recall, F1-score, and 
 
 <p>Based on all evaluation metrics, Support Vector Machine is the overall winner for the obesity classification dataset. It achieved highest accuracy, AUC, precision, recall, F1 score and MCC among all five models showing that its able to accurately classify between the obesity-level categories. F1-score of 92.30% shows a strong balance between precision and recall indicating that the model effectively minimizes both false positives and false negatives across the seven obesity categories.</p>
 
-## 5. Conclusion
+## e. Conclusion
 Overall, five machine learning classification models are implemented to classify individuals into various obesity-level categories. The models were evaluated using appropriate performance metrics, with Support Vector Machine achieving the best overall performance. Then an interactive Streamlit application was also developed to evaluate model performance using trained models.
