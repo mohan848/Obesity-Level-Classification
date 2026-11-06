@@ -46,7 +46,7 @@ Below classification models are used:
 
 The models were evaluated using Accuracy, AUC, Precision, Recall, F1-score, and Matthews Correlation Coefficient (MCC).
 
-| ML Model Name | Accuracy (%) | AUC (%) | Precision (%) | Recall (%) | F1-score (%) | MCC |
+| ML Model Name | Accuracy | AUC | Precision | Recall | F1-score | MCC |
 |---|---:|---:|---:|---:|---:|---:|
 | Logistic Regression | 0.8747 | 0.9834 | 0.8707 | 0.8724 | 0.8708 | 0.8539 |
 | Decision Tree | 0.9149 | 0.9488 | 0.9157 | 0.9118 | 0.9133 | 0.9007 |
