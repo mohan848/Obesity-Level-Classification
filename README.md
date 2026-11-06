@@ -40,13 +40,13 @@ Below classification models are used:
 
 1. Logistic Regression
 2. Decision Tree Classifier
-3. K-Nearest Neighbors (KNN)
+3. K-Nearest Neighbours (KNN)
 4. Gaussian Naive Bayes
 5. Support Vector Machine (SVM)
 
 The models were evaluated using Accuracy, AUC, Precision, Recall, F1-score, and Matthews Correlation Coefficient (MCC).
 
-| ML Model Name | Accuracy | AUC | Precision | Recall | F1-score | MCC |
+| ML Model Name | Accuracy | AUC | Precision | Recall | F1 | MCC |
 |---|---:|---:|---:|---:|---:|---:|
 | Logistic Regression | 0.8747 | 0.9834 | 0.8707 | 0.8724 | 0.8708 | 0.8539 |
 | Decision Tree | 0.9149 | 0.9488 | 0.9157 | 0.9118 | 0.9133 | 0.9007 |
@@ -61,7 +61,7 @@ The models were evaluated using Accuracy, AUC, Precision, Recall, F1-score, and 
 | ML Model Name | Observation about Model Performance |
 |---|---|
 | Logistic Regression | Achieved good results, with an accuracy of 87.47% and an F1-score of 87.08%. Overall, it performed well but below SVM and Decision Tree. |
-| Decision Tree | It also performed well, with an accuracy of 91.49% and an F1-score of 91.33%. Its performance is very close to SVM classifier, showing that it is also a effective classifier for this dataset. |
+| Decision Tree | Achieved better results, with an accuracy of 91.49% and an F1-score of 91.33%. Its performance is very close to SVM classifier, showing that it is also an effective classifier for this dataset. |
 | KNN | Achieved moderate performance, with 82.51% accuracy and an F1-score of 81.31%, showing lower classification effectiveness. |
 | Naive Bayes | Recorded the lowest performance across all metrics when compared to models, with 50.83% accuracy and an F1-score of 45.11%, showing the difficulty in accurately classifying between the obesity-level categories. |
 | Support Vector Machine | Achieved the best overall performance with an accuracy of 92.43% and F1-score of 92.30% and highest scores across all other evaluation metrics. This shows that SVM is the most effective classifier for this dataset. It also shows great balance between precision and recall scores. |
@@ -70,7 +70,7 @@ The models were evaluated using Accuracy, AUC, Precision, Recall, F1-score, and 
 
 **Support Vector Machine (SVM)**
 
-<p>Based on all evaluation metrics, Support Vector Machine is the overall winner for the obesity classification dataset. It achieved highest accuracy, AUC, precision, recall, F1 score and MCC among all five models showing that its able to accurately classify between the obesity-level categories. F1-score of 92.30% shows a strong balance between precision and recall indicating that the model effectively minimizes both false positives and false negatives across the seven obesity categories.</p>
+<p>Based on all evaluation metrics, Support Vector Machine is the overall winner for the obesity classification dataset. It achieved highest accuracy, AUC, precision, recall, F1 score and MCC among all five models showing that it's able to accurately classify between the obesity-level categories. F1-score of 92.30% shows a strong balance between precision and recall indicating that the model effectively minimizes both false positives and false negatives across the seven obesity categories.</p>
 
 ## e. Conclusion
 Overall, five machine learning classification models are implemented to classify individuals into various obesity-level categories. The models were evaluated using appropriate performance metrics, with Support Vector Machine achieving the best overall performance. Then an interactive Streamlit application was also developed to evaluate model performance using trained models.
