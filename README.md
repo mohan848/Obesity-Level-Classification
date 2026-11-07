@@ -4,7 +4,7 @@
 ## a. Problem Statement
 
 Obesity is one of the major health concerns in recent years, affecting individuals across different age groups and populations. It can increase the risk of several health conditions, including cardiovascular diseases and other disorders. Obesity levels depend on demographic characteristics, eating habits, family history, and physical activity.
-Machine learning techniques such as multi-class classification models can be implemented and evaluated using appropriate metrics to classify individuals into one of the seven obesity-level categories by identifying patterns in their demographic characteristics, eating habits, family history, and physical activity.
+<p>Machine learning techniques such as multi-class classification models can be implemented and evaluated using appropriate metrics to classify individuals into one of the seven obesity-level categories by identifying patterns in their demographic characteristics, eating habits, family history, and physical activity.</p>
 
 ## b. Dataset Description
 
